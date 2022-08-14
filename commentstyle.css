@@ -1,0 +1,156 @@
+body{
+    
+    background-color: #FFBF00;
+    font-family: 'Montserrat', sans-serif;
+}
+.box h1,h2{
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 20px;
+    
+}
+.box{
+    text-align: center;
+    background-color: #007563;
+    align-items:center;
+    border:solid black 2px;
+    color: white;
+    justify-content: center;
+    margin:20px auto;
+    width: 32%;
+    height: 400px;
+    padding: 14px 10px;
+    display:block;
+    transition: 0.25s;
+    border-radius: 24px;
+    animation-name: tweet;
+    animation-delay: 1s;
+}
+ 
+@media screen and (max-width: 700px) {
+    body {
+      background-color:#007563;
+    }
+   
+    .box{
+        text-align: center;
+        background-color: #007563;
+
+    }
+    .box h1,h2{
+        text-align: center;
+        padding-top:10px;
+        padding-bottom: 10px;
+        
+    }
+    .button{
+        width: 20px;
+    }
+    .button:hover{
+        background-color: #FFBF00;
+        color:black;
+        transform: scale(1.9);
+    
+    }
+  }
+
+  @media screen and (max-width: 647px) {
+    body{
+        background-color: #007563;
+    }
+    .box h1,h2{
+        margin: 0%;
+        text-align: center;
+        padding-top:10px;
+        padding-bottom: 10px;
+        
+    }
+    .box{
+        display: flex;
+        background-color: #007563;
+        flex-direction: column;
+        padding-top:50px;
+        padding-bottom: 50px;
+      
+    }
+    .label1{
+        
+        margin-right: 20px;
+        padding-right: 28px;
+        
+        display: block;
+    }
+    .button{
+        width: 20px;
+    }
+    .button:hover{
+        background-color: #FFBF00;
+        color:black;
+        transform: scale(1.9);
+    
+    }
+    }
+
+  
+
+
+
+
+
+.box input[type="text"]{
+    overflow:auto;
+    width: 65%;
+    height: 15%;
+
+}
+.box .username{
+    margin-top: 0px;
+  margin-right:0px;
+  border-radius: 0px;
+  background-color:#007563;
+ border:none;
+ border-bottom: 2px solid white;
+
+}
+ /* input[type="text"]{
+    width: 200px;
+} */
+
+.box .comment{
+    margin-top: 30px;
+    margin-left:0px;
+    border-radius: 0px;
+    background-color:#007563;
+ border:none;
+ border-bottom: 2px solid white;
+  }
+  
+  .box input[type="placeholder"]{
+    color: white;
+    width: 200px;
+  }
+.button{
+   
+    margin:20px;
+    border-radius: 20px;
+    width:26%;
+    height: 10%;
+    transition: 0.75s;
+    background-color: #007563;
+    border:2px white solid;
+}
+.button:hover{
+    background-color: #FFBF00;
+    color:black;
+    transform: scale(.9);
+
+}
+.label1{
+    padding-left: 33px;
+    margin:15px;
+}
+.label2{
+    margin:15px;
+}
+.img{
+    background:no-repeat;}
